@@ -1,6 +1,7 @@
 import sqlite3
 
-#TODO: Добавить логирование
+# TODO: Добавить логирование
+
 
 class DatabaseManager:
     def __init__(self, database_filename):

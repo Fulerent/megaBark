@@ -16,11 +16,3 @@ def create_test_db() -> BookmarkDatabase:
     yield db
 
     DatabaseManager.drop_table(db_class, table_name=name_test_db)
-
-
-@pytest.fixture(scope="function")
-def create_notion(db: BookmarkDatabase):
-    notion: str = ''
-    # db.create()
-
-
