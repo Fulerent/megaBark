@@ -1,6 +1,6 @@
 import unittest
 from datetime import datetime
-from bark.persistence import BookmarkDatabase
+from app.persistence import BookmarkDatabase
 from unittest.mock import patch
 
 
@@ -54,7 +54,7 @@ class TestGeneralBark:
 
 
 class TestGithubFunctional(unittest.TestCase):
-    @patch('bark.basic_commands.ImportGitHubStarsCommand')
+    @patch('app.basic_commands.ImportGitHubStarsCommand')
     def test_get_stars_from_github(self, GithubMock):
         mock = GithubMock()
         mock.execute.return_value = True, {

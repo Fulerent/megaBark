@@ -4,7 +4,7 @@ from datetime import datetime
 
 import requests
 
-from bark.persistence import BookmarkDatabase  # <1>
+from app.persistence import BookmarkDatabase  # <1>
 
 persistence = BookmarkDatabase()  # <2>
 

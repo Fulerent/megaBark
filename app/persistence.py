@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from bark.db_manager import DatabaseManager
+from app.db_manager import DatabaseManager
 
 
 class PersistenceLayer(ABC):

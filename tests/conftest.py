@@ -1,7 +1,7 @@
 import pytest
 from datetime import date
-from bark.db_manager import DatabaseManager
-from bark.persistence import BookmarkDatabase
+from app.db_manager import DatabaseManager
+from app.persistence import BookmarkDatabase
 
 
 def _create_table_name_with_date() -> str:

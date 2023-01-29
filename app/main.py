@@ -3,7 +3,7 @@
 import os
 from collections import OrderedDict
 
-import bark.basic_commands as basic_commands
+import app.basic_commands as basic_commands
 
 
 def format_bookmark(bookmark):
