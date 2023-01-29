@@ -1,4 +1,4 @@
 *.db
 venv/
 .pytest_cache/
-.idea/ß
+.idea/
